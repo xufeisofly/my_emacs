@@ -12,7 +12,6 @@
 (setq spacemacs-evil-packages
       '(evil-anzu
         evil-args
-        evil-ediff
         evil-exchange
         evil-iedit-state
         evil-indent-plus
