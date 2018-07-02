@@ -31,25 +31,5 @@
   (configuration-layer/sync)
   (spacemacs-buffer/display-startup-note)
   (spacemacs/setup-startup-hook)
-  (when (fboundp 'electric-indent-mode) (electric-indent-mode -1))
-  (defun my-web-mode-hook ()
-      "Hooks for Web mode."
-        (setq web-mode-markup-indent-offset 2)
-        )
-  (add-hook 'web-mode-hook  'my-web-mode-hook)
-
-  (global-linum-mode 1) ; always show line numbers
-  (setq linum-format "%d| ")  ;set format
-
   (require 'server)
   (unless (server-running-p) (server-start)))
-  (setq ruby-insert-encoding-magic-comment nil)
-
-(setq package-list '(better-defaults
-                     helm-projectile
-                     helm-ag
-                     ruby-electric))
-
-;; Autoclose paired syntax elements like parens, quotes, etc
-(add-hook 'ruby-mode-hook 'ruby-electric-mode)
-(setq enh-ruby-add-encoding-comment-on-save nil)
