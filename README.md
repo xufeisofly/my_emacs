@@ -1,4 +1,37 @@
-# 快捷键
+# Installation
+
+### install emacs for mac
+https://emacsformacosx.com/
+
+### clone my emacs config
+you can clone my emacs files to ~/.emacs.d/
+> git clone git@github.com:xufeisofly/my_emacs.git
+or the better way is 
+
+```
+rm -rf ~/.emacs.d
+mkdir ~/.emacs.d
+cd ~/.emacs.d/
+git remote add origin git@github.com:xufeisofly/my_emacs.git
+git pull origin master
+```
+
+### clone my spacemacs config
+> because my emacs is based on spacemacs，so spacemacs config is also needed
+
+```
+rm -rf ~/.emacs.d
+mkdir ~/.spacemacs.d
+cd ~/.spacemacs.d
+git remote add origin git@github.com:xufeisofly/my_spacemacs.git
+git pull origin master
+```
+
+### start emacs
+> start emacs in your launchpad, or simply alias 'emacs' command to use it in terminal, search it yourself. After emacs started, it will download packages itself.
+
+# Shortcut-key
+> 快捷键定义在.emacs.d/private/personal-config/package.el
 
 | shortcut-key | function                 |
 |--------------|--------------------------|
