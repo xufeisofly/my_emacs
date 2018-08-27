@@ -79,11 +79,12 @@ Each entry is either:
 (global-set-key (kbd  "M-1") 'winum-select-window-1)
 (global-set-key (kbd  "M-2") 'winum-select-window-2)
 (global-set-key (kbd  "M-3") 'winum-select-window-3)
-(global-set-key (kbd  "M-3") 'winum-select-window-4)
+(global-set-key (kbd  "M-4") 'winum-select-window-4)
 (global-set-key (kbd  "C->") 'mc/mark-next-like-this)
 (global-set-key (kbd  "C-c s") 'projectile-ag)
 (global-set-key (kbd  "C-x /") 'comment-line)
 (global-set-key (kbd  "C-a") 'back-to-indentation)
 (global-set-key (kbd  "C-s") 'isearch-forward)
+(global-set-key (kbd  "C-c p p") 'projectile-switch-project)
 
 (setq-default indent-tabs-mode nil)
