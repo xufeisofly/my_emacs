@@ -85,6 +85,6 @@ Each entry is either:
 (global-set-key (kbd  "C-x /") 'comment-line)
 (global-set-key (kbd  "C-a") 'back-to-indentation)
 (global-set-key (kbd  "C-s") 'isearch-forward)
-(global-set-key (kbd  "C-c p p") 'projectile-switch-project)
+(global-set-key (kbd  "C-c .") 'jedi:goto-definition)
 
 (setq-default indent-tabs-mode nil)
