@@ -86,5 +86,6 @@ Each entry is either:
 (global-set-key (kbd  "C-a") 'back-to-indentation)
 (global-set-key (kbd  "C-s") 'isearch-forward)
 (global-set-key (kbd  "C-c .") 'jedi:goto-definition)
+(global-set-key (kbd  "C-c ,") 'godef-jump)
 
 (setq-default indent-tabs-mode nil)
