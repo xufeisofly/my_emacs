@@ -24,6 +24,9 @@
                    "Spacemacs requires Emacs version %s or above.")
            emacs-version spacemacs-emacs-min-version)
 
+  (setq-default tab-width 4)
+  (setq tab-width 4)
+
   (load-file (concat (file-name-directory load-file-name)
                      "core/core-load-paths.el"))
   (require 'core-spacemacs)
@@ -33,13 +36,5 @@
   (spacemacs-buffer/display-startup-note)
   (spacemacs/setup-startup-hook)
   (load custom-file 'noerror)
-  (custom-set-variables '(tab-width 4))
-  (setq indent-tabs-mode t)
-  (setq tab-width 4)
-	(setq-default go-indent-offset 2)
-  (setq-default indent-tabs-mode t
-                tab-width 4
-                go-indent-offset 4
-                standard-indent 1)
   (require 'server)
   (unless (server-running-p) (server-start)))

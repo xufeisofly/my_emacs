@@ -19,7 +19,8 @@
  '(tab-width 4))
 (setq-default tab-width 4) ; or any other preferred value
 (defvaralias 'c-basic-offset 'tab-width)
-(defvaralias 'cperl-indent-level 'tab-width)
+(defvaralias 'go-indent-level 'tab-width)
+(setq go-tab-width 4)
 (setq-default indent-tabs-mode t)
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
