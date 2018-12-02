@@ -90,3 +90,4 @@ Each entry is either:
 (global-set-key (kbd  "C-c m") 'pop-tag-mark)
 
 (setq-default indent-tabs-mode nil)
+(setq-default tab-width 4)
