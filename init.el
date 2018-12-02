@@ -24,9 +24,6 @@
                    "Spacemacs requires Emacs version %s or above.")
            emacs-version spacemacs-emacs-min-version)
 
-  (setq-default tab-width 4)
-  (setq tab-width 4)
-
   (load-file (concat (file-name-directory load-file-name)
                      "core/core-load-paths.el"))
   (require 'core-spacemacs)
