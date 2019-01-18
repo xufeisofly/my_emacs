@@ -32,6 +32,7 @@
   (configuration-layer/sync)
   (spacemacs-buffer/display-startup-note)
   (spacemacs/setup-startup-hook)
+  (setq indent-tabs-mode nil)
   (load custom-file 'noerror)
   (require 'server)
   (unless (server-running-p) (server-start)))

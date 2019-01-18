@@ -86,8 +86,8 @@ Each entry is either:
 (global-set-key (kbd  "C-a") 'back-to-indentation)
 (global-set-key (kbd  "C-s") 'isearch-forward)
 (global-set-key (kbd  "C-c .") 'jedi:goto-definition)
-(global-set-key (kbd  "C-c ,") 'godef-jump)
-(global-set-key (kbd  "C-c m") 'pop-tag-mark)
+(global-set-key (kbd  "C-.") 'godef-jump)
+(global-set-key (kbd  "C-,") 'pop-tag-mark)
 
 (setq-default indent-tabs-mode nil)
 (setq-default tab-width 4)
