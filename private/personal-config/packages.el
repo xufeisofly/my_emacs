@@ -86,9 +86,11 @@ Each entry is either:
 (global-set-key (kbd  "C-a") 'back-to-indentation)
 (global-set-key (kbd  "C-s") 'isearch-forward)
 (global-set-key (kbd  "C-c .") 'jedi:goto-definition)
-(global-set-key (kbd  "C-.") 'godef-jump)
+;; (global-set-key (kbd  "C-.") 'godef-jump)
+(global-set-key (kbd  "C-.") 'dumb-jump-go)
 (global-set-key (kbd  "C-x .") 'go-guru-definition)
-(global-set-key (kbd  "C-,") 'pop-tag-mark)
+;; (global-set-key (kbd  "C-,") 'pop-tag-mark)
+(global-set-key (kbd  "C-,") 'dumb-jump-back)
 (global-set-key (kbd  "C-x 9") 'toggle-frame-fullscreen)
 ;; go dlv current func
 (global-set-key (kbd  "C-x 8") 'dlv-current-func)
