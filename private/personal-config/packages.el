@@ -93,7 +93,7 @@ Each entry is either:
 (global-set-key (kbd  "C-x 9") 'toggle-frame-fullscreen)
 ;; go dlv current funk
 (global-set-key (kbd  "C-x 8") 'dlv-current-func)
-(global-set-key (kbd  "C-d") 'scroll-down-command)
+(global-set-key (kbd  "C-d") 'company-tabnine)
 
 (setq-default indent-tabs-mode nil)
 (setq-default tab-width 4)
