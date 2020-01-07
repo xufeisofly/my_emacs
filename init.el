@@ -32,6 +32,7 @@
   ;; Disable file-name-handlers for a speed boost during init
   (let ((file-name-handler-alist nil))
     (require 'core-spacemacs)
+    (setq custom-file "~/.emacs.d/custom.el")
     (spacemacs/dump-restore-load-path)
     (configuration-layer/load-lock-file)
     (spacemacs/init)
