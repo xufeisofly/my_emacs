@@ -1,0 +1,6 @@
+[submodule "private/elpy"]
+	path = private/elpy
+	url = git@github.com:TheBB/elpy-layer
+[submodule "private/c++-rtags"]
+	path = private/c++-rtags
+	url = https://github.com/kzemek/cpp-rtags-layer
