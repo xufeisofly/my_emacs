@@ -1,0 +1,29 @@
+[16:11:2.299] Global cache location '/Users/norris/Library/Caches/typescript/3.8', safe file path '/users/norris/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/typingsafelist.json', types map path /users/norris/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/typesmap.json
+[16:11:2.302] Processing cache location '/Users/norris/Library/Caches/typescript/3.8'
+[16:11:2.302] Trying to find '/Users/norris/Library/Caches/typescript/3.8/package.json'...
+[16:11:2.303] Finished processing cache location '/Users/norris/Library/Caches/typescript/3.8'
+[16:11:2.304] Process id: 82887
+[16:11:2.304] NPM location: /usr/local/Cellar/node/11.10.1/bin/npm (explicit '--npmLocation' not  provided)
+[16:11:2.304] validateDefaultNpmLocation: false
+[16:11:2.304] Npm config file: /Users/norris/Library/Caches/typescript/3.8/package.json
+[16:11:2.304] Updating types-registry npm package...
+[16:11:2.305] Exec: /usr/local/Cellar/node/11.10.1/bin/npm install --ignore-scripts types-registry@latest
+[16:11:2.318]     Failed. stdout:
+    
+    stderr:
+    /bin/sh: /usr/local/Cellar/node/11.10.1/bin/npm: No such file or directory
+    
+[16:11:2.318] Updated types-registry npm package
+[16:11:2.319] Types registry file '/Users/norris/Library/Caches/typescript/3.8/node_modules/types-registry/index.json' does not exist
+[16:11:2.378] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/Users/norris/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/Users/norris/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib","kind":"discover"}
+[16:11:2.406] Loaded safelist from types map file '/users/norris/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/typesmap.json'
+[16:11:2.406] Explicitly included types: []
+[16:11:2.407] Inferred typings from unresolved imports: []
+[16:11:2.407] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/norris/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/bower_components","/Users/norris/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/node_modules"]}
+[16:11:2.407] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/norris/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/bower_components","/Users/norris/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/node_modules"]}
+[16:11:2.408] DirectoryWatcher:: Added:: WatchInfo: /Users/norris/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/bower_components
+[16:11:2.410] DirectoryWatcher:: Added:: WatchInfo: /Users/norris/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/node_modules
+[16:11:2.410] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[16:11:2.410] Response has been sent.
+[16:11:2.410] No new typings were requested as a result of typings discovery

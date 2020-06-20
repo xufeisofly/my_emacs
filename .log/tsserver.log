@@ -1,0 +1,17 @@
+Info 0    [16:11:1.926] Starting TS Server
+Info 1    [16:11:1.928] Version: 3.8.3
+Info 2    [16:11:1.928] Arguments: /usr/local/Cellar/node/11.10.1/bin/node /Users/norris/.emacs.d/.cache/lsp/npm/typescript/bin/tsserver --logFile /Users/norris/.emacs.d/.log/tsserver.log --logVerbosity info --cancellationPipeName /private/var/folders/_x/lz5_2yy92wb846mhffkbt7300000gn/T/58fbf3cf7f61a92f11310e6d32439230/tscancellation*
+Info 3    [16:11:1.928] Platform: darwin NodeVersion: 11 CaseSensitive: false
+Info 4    [16:11:1.952] Search path: /Users/norris/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib
+Info 5    [16:11:1.955] For info: /Users/norris/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts :: No config files found.
+Info 6    [16:11:1.963] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 7    [16:11:2.201] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true Elapsed: 238ms
+Info 8    [16:11:2.201] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 9    [16:11:2.201] 	Files (1)
+
+Info 10   [16:11:2.201] -----------------------------------------------
+Info 11   [16:11:2.451] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 12   [16:11:2.452] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: false Elapsed: 1ms
+Info 13   [16:11:2.706] Structure before ensureProjectForOpenFiles:
+Info 14   [16:11:2.706] Structure after ensureProjectForOpenFiles:
+Info 15   [16:11:2.707] got projects updated in background, updating diagnostics for /Users/norris/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts
