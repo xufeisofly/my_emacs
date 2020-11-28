@@ -1,9 +1,14 @@
 # Installation
 
-### install emacs for mac
+### step1: install emacs for mac
 https://emacsformacosx.com/
 
-### clone my emacs config
+### step2: install spacemacs develop
+```
+> git clone -b develop https://github.com/syl20bnr/spacemacs ~/.emacs.d
+```
+
+### step3: clone my emacs config
 you can clone my emacs files to ~/.emacs.d/
 > git clone git@github.com:xufeisofly/my_emacs.git
 or the better way is 
@@ -16,11 +21,11 @@ git remote add origin git@github.com:xufeisofly/my_emacs.git
 git pull origin master
 ```
 
-### clone my spacemacs config
+### step4: clone my spacemacs config
 > because my emacs is based on spacemacs，so spacemacs config is also needed
 
 ```
-rm -rf ~/.emacs.d
+rm -rf ~/.spacemacs.d
 mkdir ~/.spacemacs.d
 cd ~/.spacemacs.d
 git remote add origin git@github.com:xufeisofly/my_spacemacs.git
