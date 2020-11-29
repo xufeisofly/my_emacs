@@ -48,3 +48,4 @@
       (unless (server-running-p)
         (message "Starting a server...")
         (server-start)))))
+(put 'set-goal-column 'disabled nil)
