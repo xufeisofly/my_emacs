@@ -19,6 +19,8 @@ mkdir ~/.emacs.d
 cd ~/.emacs.d/
 git remote add origin git@github.com:xufeisofly/my_emacs.git
 git pull origin master
+
+rm ~/.emacs
 ```
 
 ### step4: clone my spacemacs config
@@ -30,6 +32,8 @@ mkdir ~/.spacemacs.d
 cd ~/.spacemacs.d
 git remote add origin git@github.com:xufeisofly/my_spacemacs.git
 git pull origin master
+
+rm ~/.spacemacs
 ```
 
 ### start emacs
