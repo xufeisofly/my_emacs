@@ -26,6 +26,9 @@
 
   (load-file (concat (file-name-directory load-file-name)
                      "core/core-load-paths.el"))
+
+(defalias 'which-key-declare-prefixes 'ignore)
+(defalias 'which-key-declare-prefixes-for-mode 'ignore)
   (require 'core-spacemacs)
   (setq custom-file "~/.emacs.d/custom.el")
   (spacemacs/init)
